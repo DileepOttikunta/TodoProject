@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/TodoList?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.1', {
+mongoose.connect('mongodb+srv://dileepottikunta:OalWh9HVzlHzFLRE@dileep.eapbkf5.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
